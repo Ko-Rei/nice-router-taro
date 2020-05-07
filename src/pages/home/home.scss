@@ -2,14 +2,4 @@
 
 .home-page {
   @extend %page;
-
-  &-action-floor {
-    margin: 20px 10px;
-  }
-
-  .section-bar {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: -10px;
-  }
 }
