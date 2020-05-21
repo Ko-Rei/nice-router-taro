@@ -13,7 +13,7 @@ function HomePage() {
       <Button
         type='primary'
         onClick={() => {
-          Taro.navigateTo('/page/me/me-page').then(() => {
+          Taro.navigateTo({url:'/pages/biz/listof-test-page'}).then(() => {
             console.log('Taro.navigateTo等方法没有then。。')
           })
         }}
