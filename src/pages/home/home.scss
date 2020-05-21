@@ -1,15 +1,8 @@
 @import 'src/styles/theme';
 
 .home-page {
-  @extend %page;
-
-  &-action-floor {
-    margin: 20px 10px;
-  }
-
-  .section-bar {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: -10px;
+  &-txt {
+    display: none;
+    padding-bottom: 40px;
   }
 }
